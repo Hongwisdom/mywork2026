@@ -22,6 +22,8 @@ const elements = {
   zoomIn: document.querySelector("#zoom-in"),
   zoomOut: document.querySelector("#zoom-out"),
   fitAll: document.querySelector("#fit-all"),
+  statsDisclosure: document.querySelector(".stats-disclosure"),
+  statsToggle: document.querySelector("#stats-toggle"),
   stats: {
     total: document.querySelector("#stat-total"),
     valid: document.querySelector("#stat-valid"),
@@ -292,6 +294,7 @@ function applySearch() {
   elements.message.textContent = count
     ? `找到 ${count} 筆符合資料${searchMatches.some((record) => record.latitude === null || record.longitude === null) ? "（包含無有效座標資料）" : ""}。`
     : "沒有符合搜尋條件的資料，請確認輸入內容或清除部分條件。";
+  elements.form.reset();
   renderResults();
 }
 
@@ -385,6 +388,11 @@ async function initialize() {
 elements.form.addEventListener("submit", (event) => {
   event.preventDefault();
   applySearch();
+});
+elements.statsDisclosure.addEventListener("toggle", () => {
+  elements.statsToggle.textContent = elements.statsDisclosure.open
+    ? "隱藏資料統計"
+    : "顯示資料統計";
 });
 elements.clearSearch.addEventListener("click", () => {
   elements.form.reset();

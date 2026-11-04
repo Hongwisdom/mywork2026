@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f4f7fb">
+    <meta name="theme-color" content="#080b12">
     <title>協會地理位置搜尋與管理系統</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
@@ -27,29 +27,6 @@
     </header>
 
     <main>
-      <section class="stats-grid" aria-label="資料統計">
-        <article class="stat-card">
-          <span class="stat-icon stat-blue" aria-hidden="true">▤</span>
-          <div><p>Excel 總資料筆數</p><strong id="stat-total">—</strong></div>
-        </article>
-        <article class="stat-card">
-          <span class="stat-icon stat-green" aria-hidden="true">⌖</span>
-          <div><p>有效座標筆數</p><strong id="stat-valid">—</strong></div>
-        </article>
-        <article class="stat-card">
-          <span class="stat-icon stat-purple" aria-hidden="true">♧</span>
-          <div><p>協會總數</p><strong id="stat-associations">—</strong></div>
-        </article>
-        <article class="stat-card">
-          <span class="stat-icon stat-amber" aria-hidden="true">⌕</span>
-          <div><p>目前搜尋結果</p><strong id="stat-results">—</strong></div>
-        </article>
-        <article class="stat-card">
-          <span class="stat-icon stat-red" aria-hidden="true">!</span>
-          <div><p>無效或缺少座標</p><strong id="stat-invalid">—</strong></div>
-        </article>
-      </section>
-
       <section class="search-panel" aria-labelledby="search-title">
         <div class="section-heading">
           <div>
@@ -82,6 +59,32 @@
         </form>
         <p id="search-message" class="search-message" aria-live="polite"></p>
       </section>
+
+      <details class="stats-disclosure">
+        <summary id="stats-toggle">顯示資料統計</summary>
+        <section class="stats-grid" aria-label="資料統計">
+          <article class="stat-card">
+            <span class="stat-icon stat-blue" aria-hidden="true">▤</span>
+            <div><p>Excel 總資料筆數</p><strong id="stat-total">—</strong></div>
+          </article>
+          <article class="stat-card">
+            <span class="stat-icon stat-green" aria-hidden="true">⌖</span>
+            <div><p>有效座標筆數</p><strong id="stat-valid">—</strong></div>
+          </article>
+          <article class="stat-card">
+            <span class="stat-icon stat-purple" aria-hidden="true">♧</span>
+            <div><p>協會總數</p><strong id="stat-associations">—</strong></div>
+          </article>
+          <article class="stat-card">
+            <span class="stat-icon stat-amber" aria-hidden="true">⌕</span>
+            <div><p>目前搜尋結果</p><strong id="stat-results">—</strong></div>
+          </article>
+          <article class="stat-card">
+            <span class="stat-icon stat-red" aria-hidden="true">!</span>
+            <div><p>無效或缺少座標</p><strong id="stat-invalid">—</strong></div>
+          </article>
+        </section>
+      </details>
 
       <section class="workspace" aria-label="地圖和搜尋結果">
         <aside class="sidebar">
