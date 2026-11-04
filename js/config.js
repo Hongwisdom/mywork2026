@@ -1,5 +1,5 @@
 export const config = {
-  googleMapsApiKey: "",
+  googleMapsApiKey: "AIzaSyCps3NJXiDneyNzk1US2I0Ah_h6EOUdPvs",
   googleMapsMapId: "DEMO_MAP_ID",
   columnMapping: {
     id: "",
