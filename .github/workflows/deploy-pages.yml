@@ -1,0 +1,60 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Add Maps API key for deployment
+        env:
+          MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          config = Path("js/config.js")
+          source = config.read_text(encoding="utf-8")
+          key = os.environ.get("MAPS_API_KEY", "")
+          if not key:
+              raise SystemExit("Add the MAPS_API_KEY repository secret before deploying.")
+          old = 'googleMapsApiKey: ""'
+          if old not in source:
+              raise SystemExit("Could not find the empty Google Maps key setting in js/config.js.")
+          config.write_text(
+              source.replace(old, f"googleMapsApiKey: {json.dumps(key)}", 1),
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

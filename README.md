@@ -11,10 +11,12 @@
 ## Google Maps API 金鑰
 
 1. 在 Google Cloud Console 建立專案並啟用 **Maps JavaScript API**，設定帳單及 API 金鑰。
-2. 在本機 `js/config.js` 將 `googleMapsApiKey` 設為金鑰。部署時請在 Google Cloud Console 設定 HTTP referrer 限制。公開儲存庫不應提交含金鑰的設定檔；本儲存庫的設定預設為空白。
+2. 公開儲存庫不要將金鑰提交到程式碼。到 repository 的 **Settings → Secrets and variables → Actions** 建立名為 `MAPS_API_KEY` 的 repository secret。GitHub Actions 會在部署時將金鑰注入 Pages 成品，原始設定檔仍維持空白。
 3. 如需使用自有地圖樣式 ID，將 `googleMapsMapId` 改為該 Map ID。預設使用 `DEMO_MAP_ID` 以支援 Advanced Markers。
 
-若未設定 API 金鑰，資料、搜尋、清單與圖例仍可使用；地圖及導航標記需在本機設定金鑰後使用。GitHub Pages 的靜態頁面不會自動取得本機金鑰。
+在 **Settings → Pages** 將部署來源設為 **GitHub Actions**。Push 到 `main` 後會自動部署；也可從 Actions 手動執行工作流程。未設定 secret 時部署會明確失敗。
+
+注意：Actions secret 可避免金鑰存進 Git，但地圖 API 金鑰最終仍會出現在瀏覽器下載的靜態網頁中。請在 Google Cloud Console 將金鑰限制為 Maps JavaScript API，並設定網站 HTTP referrer（例如 `https://hongwisdom.github.io/*`）。不要使用已在聊天或其他公開地方貼出的金鑰。
 
 ## Excel 欄位
 
