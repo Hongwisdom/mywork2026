@@ -22,7 +22,7 @@ const elements = {
   zoomIn: document.querySelector("#zoom-in"),
   zoomOut: document.querySelector("#zoom-out"),
   fitAll: document.querySelector("#fit-all"),
-  statsDisclosure: document.querySelector(".stats-disclosure"),
+  statsPanel: document.querySelector("#stats-panel"),
   statsToggle: document.querySelector("#stats-toggle"),
   stats: {
     total: document.querySelector("#stat-total"),
@@ -389,10 +389,11 @@ elements.form.addEventListener("submit", (event) => {
   event.preventDefault();
   applySearch();
 });
-elements.statsDisclosure.addEventListener("toggle", () => {
-  elements.statsToggle.textContent = elements.statsDisclosure.open
-    ? "隱藏資料統計"
-    : "顯示資料統計";
+elements.statsToggle.addEventListener("click", () => {
+  const isExpanded = elements.statsToggle.getAttribute("aria-expanded") === "true";
+  elements.statsToggle.setAttribute("aria-expanded", String(!isExpanded));
+  elements.statsPanel.hidden = isExpanded;
+  elements.statsToggle.textContent = isExpanded ? "顯示統計" : "隱藏統計";
 });
 elements.clearSearch.addEventListener("click", () => {
   elements.form.reset();

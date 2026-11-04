@@ -13,9 +13,12 @@
     <header class="topbar">
       <div class="brand">
         <div class="brand-mark" aria-hidden="true">地</div>
-        <div>
+        <div class="brand-copy">
           <p class="eyebrow">資料管理平台</p>
-          <h1>協會地理位置搜尋與管理系統</h1>
+          <div class="title-row">
+            <h1>協會地理位置搜尋與管理系統</h1>
+            <button id="stats-toggle" class="stats-toggle" type="button" aria-expanded="false" aria-controls="stats-panel">顯示統計</button>
+          </div>
         </div>
       </div>
       <div class="data-source">
@@ -24,6 +27,28 @@
         <label class="upload-button" for="excel-file">載入 Excel</label>
         <input id="excel-file" class="visually-hidden" type="file" accept=".xlsx,.xls">
       </div>
+      <section id="stats-panel" class="stats-grid" aria-label="資料統計" hidden>
+        <article class="stat-card">
+          <span class="stat-icon stat-blue" aria-hidden="true">▤</span>
+          <div><p>Excel 總資料筆數</p><strong id="stat-total">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-green" aria-hidden="true">⌖</span>
+          <div><p>有效座標筆數</p><strong id="stat-valid">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-purple" aria-hidden="true">♧</span>
+          <div><p>協會總數</p><strong id="stat-associations">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-amber" aria-hidden="true">⌕</span>
+          <div><p>目前搜尋結果</p><strong id="stat-results">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-red" aria-hidden="true">!</span>
+          <div><p>無效或缺少座標</p><strong id="stat-invalid">—</strong></div>
+        </article>
+      </section>
     </header>
 
     <main>
@@ -59,32 +84,6 @@
         </form>
         <p id="search-message" class="search-message" aria-live="polite"></p>
       </section>
-
-      <details class="stats-disclosure">
-        <summary id="stats-toggle">顯示資料統計</summary>
-        <section class="stats-grid" aria-label="資料統計">
-          <article class="stat-card">
-            <span class="stat-icon stat-blue" aria-hidden="true">▤</span>
-            <div><p>Excel 總資料筆數</p><strong id="stat-total">—</strong></div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-green" aria-hidden="true">⌖</span>
-            <div><p>有效座標筆數</p><strong id="stat-valid">—</strong></div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-purple" aria-hidden="true">♧</span>
-            <div><p>協會總數</p><strong id="stat-associations">—</strong></div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-amber" aria-hidden="true">⌕</span>
-            <div><p>目前搜尋結果</p><strong id="stat-results">—</strong></div>
-          </article>
-          <article class="stat-card">
-            <span class="stat-icon stat-red" aria-hidden="true">!</span>
-            <div><p>無效或缺少座標</p><strong id="stat-invalid">—</strong></div>
-          </article>
-        </section>
-      </details>
 
       <section class="workspace" aria-label="地圖和搜尋結果">
         <aside class="sidebar">
