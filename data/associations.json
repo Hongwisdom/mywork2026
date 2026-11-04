@@ -1,0 +1,686 @@
+[
+    {
+        "id":  "1001",
+        "associationId":  "819",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區臺北市東新街6-7號(玉東親民園旁)",
+        "latitude":  25.050899437965981,
+        "longitude":  121.58276288052062
+    },
+    {
+        "id":  "1002",
+        "associationId":  "521",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區忠孝東路五段621巷4號對面路燈邊",
+        "latitude":  25.042082943867651,
+        "longitude":  121.57894161899297
+    },
+    {
+        "id":  "1003",
+        "associationId":  "511",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區松山路287巷1-1號對面圍牆邊人行道",
+        "latitude":  25.042919468944479,
+        "longitude":  121.57846326957447
+    },
+    {
+        "id":  "1004",
+        "associationId":  "522",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區永吉路127巷8號對面人行道",
+        "latitude":  25.046193854405153,
+        "longitude":  121.57043243996577
+    },
+    {
+        "id":  "1005",
+        "associationId":  "503",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區基隆路1段35巷7弄1號旁",
+        "latitude":  25.04802197017483,
+        "longitude":  121.57044524459634
+    },
+    {
+        "id":  "1006",
+        "associationId":  "502",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區松信路38號對面人行道",
+        "latitude":  25.047870808180441,
+        "longitude":  121.57211518808955
+    },
+    {
+        "id":  "1007",
+        "associationId":  "804",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "信義區臺北市永吉路182號(永吉路及永吉路180巷交叉口)人行道",
+        "latitude":  25.045528767136833,
+        "longitude":  121.57156738907081
+    },
+    {
+        "id":  "1008",
+        "associationId":  "506",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區虎林街46巷32號對面反光鏡邊人行道",
+        "latitude":  25.047390448129981,
+        "longitude":  121.57480123507636
+    },
+    {
+        "id":  "1009",
+        "associationId":  "520",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區虎林街32號邊變電箱與郵筒中間",
+        "latitude":  25.048129684075075,
+        "longitude":  121.57607758364588
+    },
+    {
+        "id":  "1010",
+        "associationId":  "500",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區虎林街75號旁邊路燈桿旁",
+        "latitude":  25.045253874386724,
+        "longitude":  121.57710385345032
+    },
+    {
+        "id":  "1011",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "信義區永吉路326巷3號旁與虎林街66巷口",
+        "latitude":  25.044962457479507,
+        "longitude":  121.57550099943188
+    },
+    {
+        "id":  "1012",
+        "associationId":  "508",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區忠孝東路5段295巷14號對面圍牆邊",
+        "latitude":  25.042266178583894,
+        "longitude":  121.57260523696503
+    },
+    {
+        "id":  "1013",
+        "associationId":  "501",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區永吉路180巷69號對面布告欄邊",
+        "latitude":  25.043524680032267,
+        "longitude":  121.57148756053709
+    },
+    {
+        "id":  "1014",
+        "associationId":  "507",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區忠孝東路5段71巷11弄2號對面路燈旁人行道",
+        "latitude":  25.042079340307286,
+        "longitude":  121.56740133442629
+    },
+    {
+        "id":  "1015",
+        "associationId":  "505",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區忠孝東路5段71巷全聯旁人行道",
+        "latitude":  25.043407612889506,
+        "longitude":  121.56740655805145
+    },
+    {
+        "id":  "1016",
+        "associationId":  "525",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區永吉路30巷167弄34號路口人行道",
+        "latitude":  25.041920207105942,
+        "longitude":  121.57013926945309
+    },
+    {
+        "id":  "1017",
+        "associationId":  "895",
+        "associationName":  "台北市視障者重建發展協會",
+        "category":  "協會",
+        "address":  "信義區永吉路120巷22弄與松隆路100號交接口",
+        "latitude":  25.044875309946868,
+        "longitude":  121.56965768988286
+    },
+    {
+        "id":  "1018",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "信義區忠孝東路五段372巷27弄2號後方",
+        "latitude":  25.039463642413889,
+        "longitude":  121.57402427137846
+    },
+    {
+        "id":  "1019",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "信義區忠孝東路五段372巷27弄44號側邊",
+        "latitude":  25.039553006721132,
+        "longitude":  121.57512020870733
+    },
+    {
+        "id":  "1021",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "信義區忠孝東路五段372巷27弄81號旁",
+        "latitude":  25.040006319360657,
+        "longitude":  121.57670159597025
+    },
+    {
+        "id":  "1022",
+        "associationId":  "523",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區林口街77號對面電信箱邊人行道",
+        "latitude":  25.039198495134073,
+        "longitude":  121.57909903577693
+    },
+    {
+        "id":  "1023",
+        "associationId":  "512",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區松山路515巷20號對面變電箱邊人行道",
+        "latitude":  25.038725453299921,
+        "longitude":  121.57907281109308
+    },
+    {
+        "id":  "1024",
+        "associationId":  "435",
+        "associationName":  "台北市心理復健家屬聯合協會",
+        "category":  "協會",
+        "address":  "信義區福德街137巷8弄(龍門社區圍牆邊)",
+        "latitude":  25.037007023918196,
+        "longitude":  121.5829253760762
+    },
+    {
+        "id":  "1025",
+        "associationId":  "510",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區中坡南路182號對面電信箱旁人行道",
+        "latitude":  25.038606583396554,
+        "longitude":  121.5840706359661
+    },
+    {
+        "id":  "1026",
+        "associationId":  "821",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "信義區松信路96號邊變電箱",
+        "latitude":  25.044781151941809,
+        "longitude":  121.57200241274032
+    },
+    {
+        "id":  "1032",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區同德路50巷9號",
+        "latitude":  25.04504635132702,
+        "longitude":  121.58491561910343
+    },
+    {
+        "id":  "1033",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區忠孝東路六段70巷21弄口",
+        "latitude":  25.04650710244956,
+        "longitude":  121.58563159790167
+    },
+    {
+        "id":  "1034",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區忠孝東路六段70巷21弄與5弄口",
+        "latitude":  25.046218824920853,
+        "longitude":  121.58485712589729
+    },
+    {
+        "id":  "1036",
+        "associationId":  "823",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區南港路3段338號",
+        "latitude":  25.051601996214902,
+        "longitude":  121.58069503179669
+    },
+    {
+        "id":  "1043",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區中南街134巷口",
+        "latitude":  25.052190414468821,
+        "longitude":  121.61491187006956
+    },
+    {
+        "id":  "1044",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區忠孝東路七段571號",
+        "latitude":  25.053069791863503,
+        "longitude":  121.61403203633664
+    },
+    {
+        "id":  "1045",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區研究院路二段180巷口與178號旁",
+        "latitude":  25.037571316677965,
+        "longitude":  121.61688881094295
+    },
+    {
+        "id":  "1046",
+        "associationId":  "814",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區臺北市研究院路3段68巷口永思橋邊",
+        "latitude":  25.035745913818438,
+        "longitude":  121.61415133057459
+    },
+    {
+        "id":  "1048",
+        "associationId":  "816",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區臺北市大坑街與合順街口(56號電線桿邊)",
+        "latitude":  25.043099783602809,
+        "longitude":  121.6193211700091
+    },
+    {
+        "id":  "1051",
+        "associationId":  "815",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區臺北市興南街60巷27號對面變電箱邊",
+        "latitude":  25.055699969315803,
+        "longitude":  121.60368847492879
+    },
+    {
+        "id":  "1052",
+        "associationId":  "498",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "南港區興華路與東明街口(立體停車場變電箱下)",
+        "latitude":  25.056031360628261,
+        "longitude":  121.60583595243261
+    },
+    {
+        "id":  "1053",
+        "associationId":  "812",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區臺北市興南街與興南街64巷口",
+        "latitude":  25.056178645369148,
+        "longitude":  121.60178826216601
+    },
+    {
+        "id":  "1054",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "信義區信義路五段150巷14弄14號對面電信箱邊",
+        "latitude":  25.028556239756892,
+        "longitude":  121.569784569591
+    },
+    {
+        "id":  "1055",
+        "associationId":  "509",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區松仁路202巷2弄36號邊(電信箱)人行道",
+        "latitude":  25.02858024338348,
+        "longitude":  121.56806074694126
+    },
+    {
+        "id":  "1056",
+        "associationId":  "513",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區吳興街394巷口對面圍牆變電箱邊",
+        "latitude":  25.024830310692394,
+        "longitude":  121.56747556999859
+    },
+    {
+        "id":  "1057",
+        "associationId":  "817",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "信義區臺北市吳興街284巷22弄92號(黎雙公園)人行道",
+        "latitude":  25.024252363767712,
+        "longitude":  121.56062415335502
+    },
+    {
+        "id":  "1058",
+        "associationId":  "515",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區吳興街284巷24弄口1-1號邊",
+        "latitude":  25.024370985326527,
+        "longitude":  121.56358626271779
+    },
+    {
+        "id":  "1059",
+        "associationId":  "518",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區吳興街284巷28弄2號對面路燈邊",
+        "latitude":  25.023404879912917,
+        "longitude":  121.563095865607
+    },
+    {
+        "id":  "1060",
+        "associationId":  "517",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區吳興街156巷33弄9號(景勤公園旁)",
+        "latitude":  25.027712000724868,
+        "longitude":  121.56059091114079
+    },
+    {
+        "id":  "1061",
+        "associationId":  "822",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "信義區吳興街118號旁",
+        "latitude":  25.030008403000629,
+        "longitude":  121.56110334884926
+    },
+    {
+        "id":  "1062",
+        "associationId":  "516",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區吳興街44-1號對面路燈邊",
+        "latitude":  25.031309732394067,
+        "longitude":  121.56014824693443
+    },
+    {
+        "id":  "1064",
+        "associationId":  "896",
+        "associationName":  "台北市視障者重建發展協會",
+        "category":  "協會",
+        "address":  "信義區光復南路628巷與文昌街280巷交叉路口路燈邊",
+        "latitude":  25.0316460174636,
+        "longitude":  121.55699913624034
+    },
+    {
+        "id":  "1065",
+        "associationId":  "519",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區基隆路2段79巷1號對面圍牆邊人行道",
+        "latitude":  25.0300213194855,
+        "longitude":  121.55842514327992
+    },
+    {
+        "id":  "1066",
+        "associationId":  "499",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區基隆路2段79巷32號邊",
+        "latitude":  25.029380337098022,
+        "longitude":  121.55972593507097
+    },
+    {
+        "id":  "1068",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "信義區和平東路三段391巷56號旁",
+        "latitude":  25.020837591326536,
+        "longitude":  121.55961667268208
+    },
+    {
+        "id":  "1069",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "大安區臥龍街381號",
+        "latitude":  25.015760756601004,
+        "longitude":  121.56102197429618
+    },
+    {
+        "id":  "1070",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "大安區四維路198巷對面鳳雛公園佈告欄邊",
+        "latitude":  25.026670848729474,
+        "longitude":  121.54791534361173
+    },
+    {
+        "id":  "1071",
+        "associationId":  "496",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "中正區羅斯福路3段244巷10弄1-1號圍牆外變電箱邊",
+        "latitude":  25.016711893750134,
+        "longitude":  121.53077673027165
+    },
+    {
+        "id":  "1072",
+        "associationId":  "807",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "中正區臺北市羅斯福路3段210巷8弄口變電箱下",
+        "latitude":  25.018369183367053,
+        "longitude":  121.52907196652646
+    },
+    {
+        "id":  "1073",
+        "associationId":  "497",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "大安區泰順街54巷與龍泉街84號對面變電箱邊",
+        "latitude":  25.022970594897039,
+        "longitude":  121.52934395461162
+    },
+    {
+        "id":  "1074",
+        "associationId":  "514",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區吳興街156巷43號對面行道樹邊人行道",
+        "latitude":  25.028348622900747,
+        "longitude":  121.55980433895945
+    },
+    {
+        "id":  "1075",
+        "associationId":  "818",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "中正區臺北市水源路35巷與33巷口(守望相助亭)",
+        "latitude":  25.018766192796804,
+        "longitude":  121.52457160973606
+    },
+    {
+        "id":  "1076",
+        "associationId":  "504",
+        "associationName":  "台北市肌萎縮病友協會",
+        "category":  "協會",
+        "address":  "信義區信義路5段150巷38-6號反光鏡下",
+        "latitude":  25.026006660439183,
+        "longitude":  121.57039227273096
+    },
+    {
+        "id":  "1077",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "信義區吳興街269巷18弄布告欄邊",
+        "latitude":  25.027260427400162,
+        "longitude":  121.564685101128
+    },
+    {
+        "id":  "1079",
+        "associationId":  "801",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區臺北市中坡南路49巷口公園前(號誌控制器旁)",
+        "latitude":  25.042817731590617,
+        "longitude":  121.58370782990748
+    },
+    {
+        "id":  "1081",
+        "associationId":  "1032",
+        "associationName":  "台北市視障者福利發展協會",
+        "category":  "協會",
+        "address":  "信義區虎林街247號對面",
+        "latitude":  25.03725587195828,
+        "longitude":  121.57723757139854
+    },
+    {
+        "id":  "1082",
+        "associationId":  "1041",
+        "associationName":  "台北市視障者福利發展協會",
+        "category":  "協會",
+        "address":  "信義區忠孝東路5段236巷37弄對面公園變電箱邊人行道",
+        "latitude":  25.03762146581478,
+        "longitude":  121.57374390532816
+    },
+    {
+        "id":  "1083",
+        "associationId":  "574",
+        "associationName":  "台北市私立彩虹村家園財團法人臺北市樹仁社會福利基金會附設臺北市私立彩虹村家園",
+        "category":  "協會",
+        "address":  "信義區松德路200巷松德公園與停車場旁",
+        "latitude":  25.034742292676796,
+        "longitude":  121.5727004458266
+    },
+    {
+        "id":  "1084",
+        "associationId":  "824",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "南港區研究院路2段12巷57弄口",
+        "latitude":  25.047529025623536,
+        "longitude":  121.61375705924138
+    },
+    {
+        "id":  "1085",
+        "associationId":  "575",
+        "associationName":  "台北市私立彩虹村家園財團法人臺北市樹仁社會福利基金會附設臺北市私立彩虹村家園",
+        "category":  "協會",
+        "address":  "信義區信義路6段15巷與松德路133巷口(安強公園內凸透鏡旁)",
+        "latitude":  25.037011520346844,
+        "longitude":  121.57524677877103
+    },
+    {
+        "id":  "1086",
+        "associationId":  "810",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "信義區臺北市信義路6段15巷18弄6號對面路燈邊",
+        "latitude":  25.035504363819864,
+        "longitude":  121.57523030892234
+    },
+    {
+        "id":  "1087",
+        "associationId":  "813",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "信義區臺北市信義路6段63號邊",
+        "latitude":  25.035338351640839,
+        "longitude":  121.57675171094195
+    },
+    {
+        "id":  "1092",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區玉成街140巷7號",
+        "latitude":  25.044748712898116,
+        "longitude":  121.58318678123922
+    },
+    {
+        "id":  "1094",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區舊莊街二段3號對面",
+        "latitude":  25.037461705288919,
+        "longitude":  121.62460518376135
+    },
+    {
+        "id":  "1096",
+        "associationId":  "811",
+        "associationName":  "社團法人台北市行無礙資源推廣協會",
+        "category":  "協會",
+        "address":  "信義區臺北市崇德街96號對面變電箱旁人行道",
+        "latitude":  25.024215777960514,
+        "longitude":  121.55538890870108
+    },
+    {
+        "id":  "1108",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區昆陽街64號旁",
+        "latitude":  25.052446670276478,
+        "longitude":  121.5930443454866
+    },
+    {
+        "id":  "1111",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "南港區東新街13巷2號旁",
+        "latitude":  25.047441406433617,
+        "longitude":  121.5858202604154
+    },
+    {
+        "id":  "2001",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "其他區家中回收",
+        "latitude":  25.047533703835516,
+        "longitude":  121.58572743757111
+    },
+    {
+        "id":  "2007",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "其他區錦福齊天",
+        "latitude":  25.059652116737265,
+        "longitude":  121.29611510753357
+    },
+    {
+        "id":  "2008",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "其他區停車",
+        "latitude":  25.060164522069432,
+        "longitude":  121.29472101821086
+    },
+    {
+        "id":  "2009",
+        "associationId":  "",
+        "associationName":  "私人",
+        "category":  "私人",
+        "address":  "其他區甜蜜進行曲",
+        "latitude":  25.060397615688704,
+        "longitude":  121.2976862839574
+    }
+]

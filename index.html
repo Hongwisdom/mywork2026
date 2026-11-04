@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f7fb">
+    <title>協會地理位置搜尋與管理系統</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">地</div>
+        <div>
+          <p class="eyebrow">資料管理平台</p>
+          <h1>協會地理位置搜尋與管理系統</h1>
+        </div>
+      </div>
+      <div class="data-source">
+        <span class="source-dot" aria-hidden="true"></span>
+        <span id="data-status" role="status">正在載入資料…</span>
+        <label class="upload-button" for="excel-file">載入 Excel</label>
+        <input id="excel-file" class="visually-hidden" type="file" accept=".xlsx,.xls">
+      </div>
+    </header>
+
+    <main>
+      <section class="stats-grid" aria-label="資料統計">
+        <article class="stat-card">
+          <span class="stat-icon stat-blue" aria-hidden="true">▤</span>
+          <div><p>Excel 總資料筆數</p><strong id="stat-total">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-green" aria-hidden="true">⌖</span>
+          <div><p>有效座標筆數</p><strong id="stat-valid">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-purple" aria-hidden="true">♧</span>
+          <div><p>協會總數</p><strong id="stat-associations">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-amber" aria-hidden="true">⌕</span>
+          <div><p>目前搜尋結果</p><strong id="stat-results">—</strong></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon stat-red" aria-hidden="true">!</span>
+          <div><p>無效或缺少座標</p><strong id="stat-invalid">—</strong></div>
+        </article>
+      </section>
+
+      <section class="search-panel" aria-labelledby="search-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">快速查找</p>
+            <h2 id="search-title">搜尋回收箱位置</h2>
+          </div>
+          <span class="and-hint">多條件搜尋採 AND 交集</span>
+        </div>
+        <form id="search-form">
+          <label class="field">
+            <span>自編號</span>
+            <input id="search-id" type="search" placeholder="輸入完整或部分自編號" autocomplete="off">
+          </label>
+          <label class="field">
+            <span>協會編號</span>
+            <input id="search-association-id" type="search" placeholder="輸入完整或部分協會編號" autocomplete="off">
+          </label>
+          <label class="field">
+            <span>協會名稱</span>
+            <select id="search-name"><option value="">全部協會</option></select>
+          </label>
+          <label class="field">
+            <span>協會類別</span>
+            <select id="search-category"><option value="">全部類別</option></select>
+          </label>
+          <div class="search-actions">
+            <button class="button button-primary" type="submit">搜尋</button>
+            <button class="button button-secondary" id="clear-search" type="button">清除條件</button>
+          </div>
+        </form>
+        <p id="search-message" class="search-message" aria-live="polite"></p>
+      </section>
+
+      <section class="workspace" aria-label="地圖和搜尋結果">
+        <aside class="sidebar">
+          <section class="side-section results-section">
+            <div class="side-heading">
+              <div><p class="eyebrow">符合條件的地點</p><h2>搜尋結果</h2></div>
+              <span id="result-count" class="count-pill">0</span>
+            </div>
+            <div id="results-list" class="results-list" aria-live="polite"></div>
+          </section>
+          <section class="side-section legend-section">
+            <div class="side-heading">
+              <div><p class="eyebrow">依協會區分</p><h2>協會圖例</h2></div>
+              <button id="clear-legend" class="text-button" type="button">取消篩選</button>
+            </div>
+            <div id="legend-list" class="legend-list"></div>
+          </section>
+        </aside>
+
+        <section class="map-panel" aria-label="地圖">
+          <div class="map-toolbar">
+            <div><span class="live-dot" aria-hidden="true"></span><span id="map-status">地圖準備中</span></div>
+            <div class="map-actions">
+              <button id="zoom-in" class="map-button" type="button" aria-label="放大地圖" title="放大">＋</button>
+              <button id="zoom-out" class="map-button" type="button" aria-label="縮小地圖" title="縮小">−</button>
+              <button id="fit-all" class="button button-secondary button-small" type="button">全覽</button>
+            </div>
+          </div>
+          <div id="map" class="map-canvas">
+            <div id="map-placeholder" class="map-placeholder">
+              <div class="placeholder-icon" aria-hidden="true">⌖</div>
+              <h2>Google 地圖尚未設定</h2>
+              <p>資料與搜尋功能可正常使用。請在 <code>js/config.js</code> 設定 Maps JavaScript API 金鑰後重新載入頁面。</p>
+              <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank" rel="noreferrer">查看 API 金鑰設定說明 ↗</a>
+            </div>
+          </div>
+          <div class="map-caption"><span>標記顏色與圖示依協會固定配置</span><span>點選標記或結果項目查看詳細資訊</span></div>
+        </section>
+      </section>
+
+      <p class="classification-note">此 Excel 的「協會及類別」欄位未分開名稱與類別；依原始值保留名稱，將「私人」列為私人，其餘含機構名稱的資料列為協會。</p>
+    </main>
+  </body>
+</html>
